@@ -134,3 +134,22 @@ footer{display:flex;justify-content:space-between;padding:28px max(7vw,24px);bac
 @media(max-width:850px){.nav-links{display:none;position:absolute;top:62px;right:0;background:var(--cream);border:2px solid var(--line);border-radius:20px;padding:10px;flex-direction:column;box-shadow:4px 4px 0 var(--line)}.nav-links.open{display:flex}.menu-btn{display:block}.hero{grid-template-columns:1fr;padding-top:130px}.hero-card{max-width:440px}.fruit{font-size:38px}.about-grid,.project-heading,.creative-head,.contact-card{grid-template-columns:1fr;display:grid}.stats,.video-grid{grid-template-columns:1fr}.project-grid{grid-template-columns:1fr}.exp-card{grid-template-columns:1fr}.bubble{width:max-content}.details-grid{grid-template-columns:1fr}footer{gap:20px;flex-direction:column}.contact-card{padding:30px}.cursor-fruit{display:none!important}}
 
 .avatar-photo-wrap{height:410px;border:2px solid var(--line);border-radius:24px;overflow:hidden;background:var(--mint2)}.avatar-photo{width:100%;height:100%;object-fit:cover;object-position:center 28%;display:block}.creative-ig-link{display:inline-block;margin-top:18px;padding:12px 17px;border:2px solid var(--line);border-radius:999px;background:var(--pink);box-shadow:4px 4px 0 var(--line);font-weight:800;color:var(--ink);text-decoration:none}.creative-ig-link:hover{transform:translate(3px,3px);box-shadow:1px 1px 0 var(--line)}
+
+/* ALYA LOGO */
+
+.brand {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.nav-logo {
+  width: 75px;
+  height: 55px;
+  object-fit: contain;
+  transition: transform 0.2s ease;
+}
+
+.nav-logo:hover {
+  transform: rotate(-5deg) scale(1.08);
+}
